@@ -1,0 +1,33 @@
+{
+    "configurations": [
+        {
+            "name": "Win64",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "E:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\include",
+                "E:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\x86_64-w64-mingw32\\include",
+                //"e:/mingw\\bin/../lib/gcc/mingw32/6.3.0/include/c++",
+                //"e:/mingw\\bin/../lib/gcc/mingw32/6.3.0/include/c++/mingw32",
+                //"e:/mingw\\bin/../lib/gcc/mingw32/6.3.0/include/c++/backward",
+                //"e:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include",
+                //"e:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/../../../../include",
+                //"e:\\mingw\\bin\\../lib/gcc/mingw32/6.3.0/include-fixed"
+               
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22000.0",
+            //"compilerPath": "E:/MinGW/bin/gcc.exe",
+            "compilerPath": "E:\\mingw-w64\\x86_64-8.1.0-posix-seh-rt_v6-rev0\\mingw64\\bin\\g++.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "${default}"
+        },
+        
+    ],
+    "version": 4
+}
+/*g++ -v -E -x c++ -*/
